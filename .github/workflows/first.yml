@@ -18,5 +18,5 @@ jobs:
                         -name: step1
                         uses: actions/checkout@v2
                         -name: step2
-                        run: enc | sort
+                        run: env | sort
                         
