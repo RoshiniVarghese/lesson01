@@ -9,6 +9,8 @@ jobs:
                 steps:
                 - name: step1
                   uses: actions/checkout@v2
+                - name: step2
+                  uses: "Get-ChildItem Env | Sort-Object Name"
         job2:
                 name: Second Job
                 runs-on: ubuntu-latest
