@@ -9,9 +9,7 @@ jobs:
                 steps:
                         -name: step1
                         uses: actions/checkout@v2
-                        -name: step2
-                        run: "Get-History | Sort-Object -Property Id -Descending"
-         job2:
+        job2:
                 name: Second Job
                 runs-on: ubuntu-latest
                 steps:
